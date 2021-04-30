@@ -4,7 +4,7 @@ import "./Countdown.css";
 export const Countdown = () => {
   const getCountdown = () => {
     const timeRemaining =
-      new Date(`2022-11-1`).getTime() - new Date().getTime();
+      new Date(`2022-11-01`).getTime() - new Date().getTime();
     let countdown = {};
     if (timeRemaining > 0) {
       countdown = {
